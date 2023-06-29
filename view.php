@@ -52,7 +52,7 @@
                                     <a href="update.php?id=<?php echo $resultat['id']?>" class="m m-lg-3"><i class="fa-solid fa-user-pen"></i></a>
                                     <a href="delete.php?id=<?php echo $resultat['id']?>"><i class="fa-solid fa-trash-can" style="color: #ff2222;" data-bs-toggle="modal" data-bs-target="#exempleModal <?php echo $resultat['id'] ?>" ></i></a>
                                 </td>
-                                <!-- <div class="modal fade" id="exempleModal <?php echo $resultat['id']?>" role="dialog">
+                                <!-- <div class="modal fade" id="exempleModal <?php //echo $resultat['id']?>" role="dialog">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="modal-body">
@@ -60,7 +60,7 @@
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Annuler</button>
-                                                <a href="delete.php?id=<?php echo $resultat['id'] ?>">
+                                                <a href="delete.php?id=<?php //echo $resultat['id'] ?>">
                                                     <button type="button" class="btn btn-danger">Confirmer</button>
                                                 </a>
                                             </div>
