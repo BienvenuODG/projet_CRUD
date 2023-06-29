@@ -18,10 +18,5 @@
         'mot_de_passe'=>$Vmot_de_passe
     ]);
 
-    if($requet){
-        $message="Inertion réussi";
-    }
-    else{
-        $message="Echec d'inertion";
-    }
 ?>
+<?php include_once'view.php' ?>
